@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/workjs.css">
+	<link rel="stylesheet" href="common.css">
+	<script src="js/workjs.js"></script>
+	<script src="js/move.js"></script>
+</head>
+<body>
+	<div class="container">
+	  <div class="clearfix">
+		<h2 class="title fl">原生javascript</h2>
+		<h2 class="title fr"><a href="index.html">返回首页</a></h2>
+	  </div>
+		<div class="line"></div>
+		<content> 
+			<div class="show_box1">
+				 <h2>拖拽交换位置</h2>
+				 <div class="fg"></div>
+				 <p>此效果主要运用定位转换，把页面内块的位置获取并给予每个块自己的绝对定位距离，在进行碰撞检测和随机换位操作</p>
+				 <ul class="cat clearfix" id="ul1">
+					 <li><img src="img/cat/1.jpg"></li>
+					 <li><img src="img/cat/2.jpg"></li>
+					 <li><img src="img/cat/3.jpg"></li>
+					 <li><img src="img/cat/4.jpg"></li>
+					 <li><img src="img/cat/5.jpg"></li>
+					 <li><img src="img/cat/6.jpg"></li>
+					 <li><img src="img/cat/7.jpg"></li>
+					 <li><img src="img/cat/8.jpg"></li>
+					 <li><img src="img/cat/9.jpg"></li>
+				 </ul>
+			</div>
+			<div class="line"></div>
+			<div class="show_box2">
+				<h2>Mac Dock</h2>
+				 <div class="fg"></div>
+				 <p>模拟Mac底部Dock栏图标的感应效果，通过对鼠标和图标中心的测距来完成感应测试.</p>
+				 <div class="mac" id="dock_box">
+				 	<div id="dock">
+					 	<img src="img/dock/1.png" >
+					 	<img src="img/dock/2.png" >
+					 	<img src="img/dock/3.png" >
+					 	<img src="img/dock/4.png" >
+				 	</div>
+				 </div>
+			</div>
+			<div class="line"></div>
+			<div class="show_box3">
+				<h2>无缝滚动</h2>
+				<div class="fg"></div>
+				<p>无缝滚动是PC大型网站首页经常要用到的一种效果，好多同行，喜欢用jQuery插件来实现，不但页面加载速度变慢，而且效果不完美，次无缝滚动也是由纯js原生手写，比较完美（因此页所列项目过多，故没加定时器轮播）。</p>
+				<div class="box" id="play">
+				    <p class="prev">&laquo;</p>
+				    <p class="next">&raquo;</p>
+				    <ol>
+				        <li class="active">0</li>
+				        <li>1</li>
+				        <li>2</li>
+				        <li>3</li>
+				        <li>4</li>
+				    </ol>
+				    <ul>
+				        <li><img src="img/1.jpg" alt="广告一" /></li>
+				        <li><img src="img/2.jpg" alt="广告二" /></li>
+				        <li><img src="img/3.jpg" alt="广告三" /></li>
+				        <li><img src="img/4.jpg" alt="广告四" /></li>
+				        <li><img src="img/5.jpg" alt="广告五" /></li>
+				    </ul>
+			    </div>
+			</div>
+			<div class="line"></div>
+			<div class="show_box4">
+				 <h2>分块运动</h2>
+				 <div class="fg"></div>
+				 <p>点击时候，穿件N行M列个span，来承载当前background，然后运用定时器对不同位置的span赋予不同运动时间，达到切换的视觉效果。</p>
+				 <input type="button" value="切换" id="btn">
+				 <div id="box1">
+				 	
+				 </div>
+			</div>
+			<div class="line"></div>
+			<div class="show_box5">
+				 <h2>左右拖拽切换</h2>
+				 <div class="fg"></div>
+				 <p>模拟苹果音乐播放器的滑动效果。</p>
+				 <div id="drag">
+				 	<ul>
+				 		<li><img src="img/showbar/1.jpg"><span></span></li>
+				 		<li><img src="img/showbar/2.jpg"><span></span></li>
+				 		<li><img src="img/showbar/3.jpg"><span></span></li>
+				 		<li><img src="img/showbar/4.jpg"><span></span></li>
+				 		<li><img src="img/showbar/5.jpg"><span></span></li>
+				 		<li><img src="img/showbar/6.jpg"><span></span></li>
+				 		<li><img src="img/showbar/7.jpg"><span></span></li>
+				 		<li><img src="img/showbar/8.jpg"><span></span></li>
+				 	</ul>
+				 </div>
+			</div>
+			<div class="line"></div>
+		</content>
+	</div>
+</body>
+</html>
