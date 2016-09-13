@@ -1,2 +1,0 @@
-# liulianlian.github.com
-personal
